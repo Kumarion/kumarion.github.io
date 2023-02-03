@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Kumarion",
-  title: "Yo' Im Kumarion",
+  title: "Yo' I'm Kumarion.",
   subTitle: emoji(
     "A passionate Full Stack Developer that mainly specializes in Luau and JavaScript."
   ),
