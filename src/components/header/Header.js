@@ -10,7 +10,8 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  contactInfo
 } from "../../portfolio";
 
 function Header() {
@@ -21,6 +22,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewContact = contactInfo.display;
 
   return (
     <Headroom>
@@ -69,9 +71,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
+          {viewContact && (
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
+          )}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>

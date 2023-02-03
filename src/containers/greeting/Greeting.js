@@ -7,7 +7,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import {illustration, greeting} from "../../portfolio";
+import {illustration, greeting, contactInfo} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
@@ -39,7 +39,9 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                {contactInfo.display && (
+                  <Button text="Contact me" href="#contact" />
+                )}
                 {greeting.resumeLink && (
                   <Button
                     text="See my resume"
