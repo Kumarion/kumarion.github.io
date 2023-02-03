@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Kumarion",
-  title: "Yo' I'm Kumarion.",
+  username: "Kurai",
+  title: "Yo' I'm Kurai. Aka Kumarion",
   subTitle: emoji(
     "A passionate Full Stack Developer that mainly specializes in Luau and JavaScript."
   ),
