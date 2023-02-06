@@ -140,10 +140,21 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Here are some libraries I've made for Roblox!",
   projects: [
-    
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Repli",
+      projectDesc: "A simple, quick and lightweight replication tool for Roblox.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://kumarion.github.io/Repli/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: false // Set false to hide this section, defaults to true
 };
